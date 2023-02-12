@@ -3,7 +3,7 @@ const config = {
     user: 'sa', //Usuario de sql server
     password: 'huevos1',
     server: 'XXMKY',
-    database: 'BDTEST',
+    database: 'DB_SERVICE1',
     oprions:{
         trustedconnection: false,
         enableArithAbort: true,
