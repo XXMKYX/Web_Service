@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use('/api', router);  //Ruta principal
 
-//Ruta general
+//Consulta todas las categorias
 router.route('/categoria').get((request,response)=>{
     bdcategoria.getCategoria().then(result => {
         console.log(result);
